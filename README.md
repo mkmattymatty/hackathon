@@ -1,2 +1,2 @@
-# hackathon-
+# hackathon
 My first hackathon project
