@@ -1,0 +1,136 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  background-color:blueviolet;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: brown;
+}
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: #003366;
+}
+
+section {
+  margin-bottom: 35px;
+}
+
+h2 {
+  color: #003366;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.project {
+  background-color: #f9f9f9;
+  border-left: 5px solid #003366;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.tools-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tools-list li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-links ul {
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+img {
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+ul, ol {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+a {
+  color: #007acc;
+}
+
+a:hover {
+  color: #005999;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #005999;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #003366;
+  color: white;
+  margin-top: 30px;
+  border-radius: 5px;
+}
